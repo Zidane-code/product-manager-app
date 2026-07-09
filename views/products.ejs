@@ -17,7 +17,7 @@
         <a class="nav-link" href="/admin/add-product">Add Product</a>
     </header>
     <main class="app-main">
-        <h1>Products</h1>
+        <h1 class="page-title">Products</h1>
         <% if(hasProducts) { %>
             <section class="products">
                 <% products.forEach(product=> { %>
@@ -28,8 +28,8 @@
                             <h2>
                                 <%= product.title %>
                             </h2>
-                            <p class="product-desc">
-                                <%= product.desc %>
+                            <p class="product-descripton product-description">
+                                <%= product.descripton %>
                             </p>
                             <p class="price">
                                 <%= product.price %>
@@ -39,7 +39,7 @@
                     <% }) %>
             </section>
             <% } else { %>
-                <h1>No products added yet</h1>
+                <h1 class="empty-state">No products added yet</h1>
                 <% } %>
     </main>
 </body>
