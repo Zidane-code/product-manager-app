@@ -97,7 +97,7 @@ Any unknown route → 404 page
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Zidane-coded/product-manager-app.git
+git clone https://github.com/Zidane-code/product-manager-app.git
 ```
 
 ### 2. Move into the project folder
