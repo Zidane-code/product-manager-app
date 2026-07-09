@@ -1,13 +1,13 @@
 {
   "name": "product_manager_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A beginner-friendly Express.js and EJS product manager app",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "",
+  "author": "Zidane",
   "license": "ISC",
   "dependencies": {
     "ejs": "^6.0.1",
