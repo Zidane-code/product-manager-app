@@ -12,7 +12,7 @@ router.post("/admin/add-product", (req, res, next) => {
   products.push({
     title: req.body.title,
     price: req.body.price,
-    descripton: req.body.description,
+    description: req.body.description,
   });
   res.redirect("/products");
 });
