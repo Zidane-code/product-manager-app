@@ -10,7 +10,7 @@ router.get('/', (req, res, next) => {
 })
 
 router.get('/products', (req, res, next) => {
-    res.render('products', {pageTitle: 'Products', price: '9.99$', products: products, hasProducts: products.length > 0})
+    res.render('products', {pageTitle: 'Products', products: products, hasProducts: products.length > 0})
 })
 
 
